@@ -11,3 +11,7 @@ Un método puede acceder a las propiedades específicas de su propio objeto medi
 ## ¿Qué ventajas a nivel de cohesión de software presenta el hecho de que el objeto conozca por sí mismo su estado lógico (si aprobó o no)?
 
 La ventaja es que el objeto puede encargarse de saber si el estudiante aprobó o no sin que otra parte del programa tenga que hacer ese cálculo. Así los datos del estudiante y la lógica relacionada con ellos quedan juntos haciendo que el código sea más sencillo de entender.
+
+## ¿Qué ocurriría si el libro ya estaba prestado y alguien intenta prestarlo nuevamente sin controles de estado internos?
+
+Si no existieran controles de estado internos, el sistema podría permitir prestar nuevamente un libro que ya está prestado generando una inconsistencia en la disponibilidad del libro. El control interno permite verificar su estado antes de realizar la operación y evitar que se preste dos veces al mismo tiempo.

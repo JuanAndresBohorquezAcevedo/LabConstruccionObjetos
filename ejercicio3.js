@@ -1,4 +1,4 @@
-function Estudiante(nombre, materia, nota, aprobado) {
+function Estudiante(nombre, materia, nota) {
     this.nombre = nombre;
     this.materia = materia;
     this.nota = nota;
