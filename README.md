@@ -15,3 +15,7 @@ La ventaja es que el objeto puede encargarse de saber si el estudiante aprobó o
 ## ¿Qué ocurriría si el libro ya estaba prestado y alguien intenta prestarlo nuevamente sin controles de estado internos?
 
 Si no existieran controles de estado internos, el sistema podría permitir prestar nuevamente un libro que ya está prestado generando una inconsistencia en la disponibilidad del libro. El control interno permite verificar su estado antes de realizar la operación y evitar que se preste dos veces al mismo tiempo.
+
+## ¿Qué ventajas tiene permitir que la información sea ingresada por el usuario en lugar de escribir los datos directamente en el código?
+
+Permitir que el usuario ingrese la información hace que el programa sea más dinámico y reutilizable ya que no es necesario modificar el código cada vez que se quiera registrar un vehículo diferente.
